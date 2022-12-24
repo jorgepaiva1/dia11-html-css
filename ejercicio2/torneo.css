@@ -1,0 +1,21 @@
+
+body{
+    background-color: darkseagreen;
+}
+.tabla{
+    height: 82%;
+    width: 50%;
+    margin: 75px auto;
+    border: 3px solid black;
+    position:inherit;
+    background-color:darkred;
+}
+
+tr:nth-child(even){
+    background-color:lightseagreen;
+}
+
+thead{
+    background-color: grey;
+    border-bottom: solid 5px grey;
+}
